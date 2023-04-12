@@ -5,5 +5,7 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://annmary-acog.github.io',
                 'git_url': 'https://github.com/annmary-acog/nbdev-widget-visualisation',
                 'lib_path': 'nbdev_widget_visualisation'},
-  'syms': { 'nbdev_widget_visualisation.core': { 'nbdev_widget_visualisation.core.foo': ( 'core.html#foo',
-                                                                                          'nbdev_widget_visualisation/core.py')}}}
+  'syms': { 'nbdev_widget_visualisation.core': { 'nbdev_widget_visualisation.core.kde_plot': ( 'core.html#kde_plot',
+                                                                                               'nbdev_widget_visualisation/core.py'),
+                                                 'nbdev_widget_visualisation.core.widget_plot': ( 'core.html#widget_plot',
+                                                                                                  'nbdev_widget_visualisation/core.py')}}}
