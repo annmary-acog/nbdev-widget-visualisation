@@ -4,6 +4,14 @@
 __all__ = ['kde_plot', 'widget_plot']
 
 # %% ../nbs/core.ipynb 3
+import numpy as np
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+import ipywidgets as widgets
+from IPython.display import display
+
+# %% ../nbs/core.ipynb 4
 def kde_plot(bw):
     x= np.random.randn(200)
     sns.kdeplot(x, fill = True, bw_adjust = bw)
@@ -11,6 +19,6 @@ def kde_plot(bw):
     plt.xlabel("Randomly generated numbers")
     plt.show()
 
-# %% ../nbs/core.ipynb 4
+# %% ../nbs/core.ipynb 5
 def widget_plot(bw):
     widgets.interact(kde_plot, bw= bw)
