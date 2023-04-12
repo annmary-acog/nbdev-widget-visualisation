@@ -3,7 +3,7 @@
 # %% auto 0
 __all__ = ['kde_plot', 'widget_plot']
 
-# %% ../nbs/core.ipynb 4
+# %% ../nbs/core.ipynb 3
 def kde_plot(bw):
     x= np.random.randn(200)
     sns.kdeplot(x, fill = True, bw_adjust = bw)
@@ -11,6 +11,6 @@ def kde_plot(bw):
     plt.xlabel("Randomly generated numbers")
     plt.show()
 
-# %% ../nbs/core.ipynb 5
+# %% ../nbs/core.ipynb 4
 def widget_plot(bw):
     widgets.interact(kde_plot, bw= bw)
