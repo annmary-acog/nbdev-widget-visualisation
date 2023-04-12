@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "nbdev-widget-visualisation"
+  site-url: "https://annmary-acog.github.io/nbdev-widget-visualisation"
+  description: "A simple program that takes a slider widget input and displays a KDE graph"
+  repo-branch: main
+  repo-url: "https://github.com/annmary-acog/nbdev-widget-visualisation"
